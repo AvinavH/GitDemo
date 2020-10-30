@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Test suite]">
+  <listeners>
+    <listener class-name="com.course.test.ExtentreporterNG"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="SecondPage Test Cases(failed)">
+    <classes>
+      <class name="com.course.test.courseSecondPageTest">
+        <methods>
+          <include name="setInvalidSkillsTest3"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setInvalidSkillsTest1"/>
+          <include name="setInvalidLanguageTest3"/>
+          <include name="setInvalidSkillsTest2"/>
+          <include name="setInvalidLanguageTest2"/>
+          <include name="setInvalidLanguageTest1"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- com.course.test.courseSecondPageTest -->
+    </classes>
+  </test> <!-- SecondPage Test Cases(failed) -->
+</suite> <!-- Failed suite [Test suite] -->

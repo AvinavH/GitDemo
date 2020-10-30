@@ -1,0 +1,40 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 24, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 73.497 s <<< FAILURE! - in TestSuite
+setInvalidSkillsTest1(com.course.test.courseSecondPageTest)  Time elapsed: 7.942 s  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	No such courses available did not expect to find [true] but found [false]
+	at com.course.test.courseSecondPageTest.setInvalidSkillsTest1(courseSecondPageTest.java:73)
+
+setInvalidSkillsTest2(com.course.test.courseSecondPageTest)  Time elapsed: 0.625 s  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	No such courses available did not expect to find [true] but found [false]
+	at com.course.test.courseSecondPageTest.setInvalidSkillsTest2(courseSecondPageTest.java:82)
+
+setInvalidSkillsTest3(com.course.test.courseSecondPageTest)  Time elapsed: 0.654 s  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	No such courses available did not expect to find [true] but found [false]
+	at com.course.test.courseSecondPageTest.setInvalidSkillsTest3(courseSecondPageTest.java:91)
+
+setInvalidLanguageTest1(com.course.test.courseSecondPageTest)  Time elapsed: 0.908 s  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	No such Languages available did not expect to find [true] but found [false]
+	at com.course.test.courseSecondPageTest.setInvalidLanguageTest1(courseSecondPageTest.java:119)
+
+setInvalidLanguageTest2(com.course.test.courseSecondPageTest)  Time elapsed: 0.544 s  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	No such Languages available did not expect to find [true] but found [false]
+	at com.course.test.courseSecondPageTest.setInvalidLanguageTest2(courseSecondPageTest.java:128)
+
+setInvalidLanguageTest3(com.course.test.courseSecondPageTest)  Time elapsed: 0.509 s  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	No such Languages available did not expect to find [true] but found [false]
+	at com.course.test.courseSecondPageTest.setInvalidLanguageTest3(courseSecondPageTest.java:137)
+
