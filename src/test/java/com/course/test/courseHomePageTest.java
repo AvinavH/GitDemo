@@ -31,12 +31,14 @@ public class courseHomePageTest extends TestBase {
 		extent = new ExtentReports("C:\\Users\\avina\\eclipse-workspace\\Course\\test-output\\CourseraExtentReport.html",true);
 		initialization();
 		home = new HomePage();
+		System.out.println("Git Update 1");
 	}
 	@Test(priority=1,groups= {"smoke","regression"})
 	public void HomePageValidationTest()
 	{
 		test = extent.startTest("Home Page Validation Test");
 		Assert.assertTrue(home.checkHomePage(), "Home Page Error!!");
+		System.out.println("Git Update 2");
 	}
 	@Test(priority=2, groups= {"smoke"})
 	public void logoVerificationTest()
