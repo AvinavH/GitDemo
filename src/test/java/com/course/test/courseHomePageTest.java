@@ -45,12 +45,14 @@ public class courseHomePageTest extends TestBase {
 	{
 		test = extent.startTest("Logo Verification Test");
 		Assert.assertTrue(home.validateLogo(), "Logo is not visible!!");
+		System.out.println("Git branch Update 1");
 	}
 	@Test(priority=3, groups= {"smoke"})
 	public void searchFieldSmokeTest()
 	{
 		test = extent.startTest("Search Field Verification Test");
 		Assert.assertTrue(home.checkSearchField(), "SearchField smoke Test failed!!");
+		System.out.println("Git branch Update 2");
 	}
 	@Test(priority=4, groups= {"smoke"})
 	public void searchButtonSmokeTest()
